@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     background-image: url(https://i.pinimg.com/originals/08/08/78/08087819da35be46be0020ef6b6cd119.gif );
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    line-height:70px;
+    padding:0px 50px;
+    /* position: absolute; */
+    background-image: linear-gradient(#06060aa9,#03094c);
+    margin-top: 0px;
+    display: flex;
+   
+}
+.logo p{
+    margin: 0;
+    color: aliceblue;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    float: left;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.logo ul{
+    float:right;
+}
+.logo li{
+ display: inline;   
+}
+.didi{
+    margin-left: 700px;
+}
+.logo li a{
+    text-decoration: none;
+    cursor: pointer;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    padding: 0 30px;
+    color: aliceblue;
+}
+.logo li a:hover{
+    color: rgb(208, 130, 26);
+    transition: all 0.4s ease 0s;
+}
+.collection h2{
+   text-transform: capitalize;
+   font-weight: bolder;
+   color:rgb(255, 238, 238);
+   margin-top: 80px;
+   font-style: italic;
+   font-size: 40px;
+}
+
+.collection{
+    background-image: linear-gradient(#343444aa, #131529);
+    font-family: sans-serif;
+    margin-top: 200px;
+    width: 500px;
+    padding: 4px;
+    margin: 100px auto 0 auto;
+    height: 300px;
+    text-align: center;
+    position: relative;
+}
+.collection p{
+      color: rgb(9, 228, 86);
+     font-size: 30px;
+     font-style: italic;
+}
+.collection p:hover{
+    color: rgb(239, 10, 10);
+    transition: all 0.4s ease 0s;
+}
